@@ -32,7 +32,7 @@
 ## Use Case
 ![Use Case](https://user-images.githubusercontent.com/50129757/93900790-c561cd00-fd30-11ea-8052-8ef84c4fab96.png)
 
-졸음운전 감지 하는 Use Case로 Driver는 Camera를 통해 화면에 얼굴이 찍한다.(Shoot Face use case) Camera는 찍힌 얼굴을 캡쳐한다.(Capture Face use case) Buzzer는 사용자가 졸음운전이라 인식하면 Driver에 경고음을 발생시킨다.(Warn Sleep use case)
+졸음운전 감지 하는 Use Case로 Driver는 Camera를 통해 화면에 얼굴이 찍한다.(Shoot Face use case)  Camera는 찍힌 얼굴을 캡쳐한다.(Capture Face use case)  Buzzer는 사용자가 졸음운전이라 인식하면 Driver에 경고음을 발생시킨다.(Warn Sleep use case)
 
 ## Scenario Description
 ![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
