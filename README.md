@@ -28,3 +28,6 @@
 ## 활용해야 되는 IO 디바이스
 1. 카메라(실시간 촬영)
 2. 임베드디장비(경고음)
+
+## Scenaio Description
+<img width="300" https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg">
