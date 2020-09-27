@@ -30,7 +30,7 @@
 2. 임베드디장비(경고음)
 
 ## Use Case
-![Use Case](https://user-images.githubusercontent.com/50129757/93900790-c561cd00-fd30-11ea-8052-8ef84c4fab96.png)
+![image](https://user-images.githubusercontent.com/50129757/94368936-e86df180-0121-11eb-816f-e800739c63da.png)
 
 졸음운전 감지 하는 Use Case로  
 Driver는 Camera를 통해 화면에 얼굴이 찍한다. (ShootFace use case)  
