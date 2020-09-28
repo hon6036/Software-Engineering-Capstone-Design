@@ -42,5 +42,4 @@ Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발�
 ## Scenario Description
 ![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
 
-da
 
