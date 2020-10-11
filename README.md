@@ -39,7 +39,7 @@ Camera는 찍힌 얼굴을 캡쳐한다. (CaptureFace use case)
 Dectect Module은 DectAlgorithm을 통해 얼굴을 분석해 졸음 운전인지 아닌지 확인한다. (DectModel use case)  
 Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnSleep use case)  
 
-![UseCase#2](https://user-images.githubusercontent.com/50129757/95689014-091d6780-0c49-11eb-9fe6-922b6776a5e3.png)
+![UseCase#2](https://user-images.githubusercontent.com/50129757/95689178-0707d880-0c4a-11eb-9dbd-f8307725808e.png)
 
 2. 졸음운전 감지 후 해당 위치에 대한 데이터 수집 Use Case  
 System은 사용자가 졸았던 위치를 edge에 전송한다. (SendData use case)  
