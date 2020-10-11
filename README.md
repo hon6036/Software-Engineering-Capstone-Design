@@ -30,7 +30,7 @@
 2. 임베드디장비(경고음)
 
 ## Use Case
-![model](https://user-images.githubusercontent.com/67508204/94380423-7244ab80-0170-11eb-929b-968be169ce9b.png)
+![UseCase#1](https://user-images.githubusercontent.com/67508204/94380423-7244ab80-0170-11eb-929b-968be169ce9b.png)
 
 졸음운전 감지 하는 Use Case로  
 Driver는 Camera를 통해 화면에 얼굴이 찍한다. (ShootFace use case)  
@@ -38,6 +38,8 @@ Camera는 찍힌 얼굴을 캡쳐한다. (CaptureFace use case)
 캡쳐된 사진은 Blink model로 이동하여 눈 깜밖임을 데이터화하고 DectAlogrithm으로 보내진다.  
 Dectect Module은 DectAlgorithm을 통해 얼굴을 분석해 졸음 운전인지 아닌지 확인한다. (DectModel use case)  
 Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnSleep use case)  
+
+![UseCase#2](https://user-images.githubusercontent.com/50129757/95689014-091d6780-0c49-11eb-9fe6-922b6776a5e3.png)
 
 ## Scenario Description
 ![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
