@@ -32,7 +32,7 @@
 ## Use Case
 ![UseCase#1](https://user-images.githubusercontent.com/67508204/94380423-7244ab80-0170-11eb-929b-968be169ce9b.png)
 
-졸음운전 감지 하는 Use Case로  
+1. 졸음운전 감지 하는 Use Case  
 Driver는 Camera를 통해 화면에 얼굴이 찍한다. (ShootFace use case)  
 Camera는 찍힌 얼굴을 캡쳐한다. (CaptureFace use case)  
 캡쳐된 사진은 Blink model로 이동하여 눈 깜밖임을 데이터화하고 DectAlogrithm으로 보내진다.  
@@ -40,6 +40,12 @@ Dectect Module은 DectAlgorithm을 통해 얼굴을 분석해 졸음 운전인�
 Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnSleep use case)  
 
 ![UseCase#2](https://user-images.githubusercontent.com/50129757/95689014-091d6780-0c49-11eb-9fe6-922b6776a5e3.png)
+
+2. 졸음운전 감지 후 해당 위치에 대한 데이터 수집 Use Case  
+System은 사용자가 졸았던 위치를 edge에 전송한다. (SendData use case)  
+Edge는 받은 위치 정보를 분석한다. (DataAnalysis use case)  
+Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollection use case)  
+Buzzer는 사용자가 다수가 졸았던 곳에 위치하게 되면 사용자에게 경고한다. (WarnLocation use case)  
 
 ## Scenario Description
 ![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
