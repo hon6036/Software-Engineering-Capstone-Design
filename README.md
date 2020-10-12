@@ -32,18 +32,13 @@
 ## Use Case
 ![Use Case](https://user-images.githubusercontent.com/50129757/95698319-84e4d780-0c7c-11eb-88c7-d390e6d5d883.png)
 
-1. 졸음운전 감지 하는 Use Case  
-Driver는 Camera를 통해 화면에 얼굴이 찍한다. (ShootFace use case)  
-Camera는 찍힌 얼굴을 캡쳐한다. (CaptureFace use case)  
-캡쳐된 사진은 Blink model로 이동하여 눈 깜밖임을 데이터화하고 DectAlogrithm으로 보내진다.  
-Dectect Module은 DectAlgorithm을 통해 얼굴을 분석해 졸음 운전인지 아닌지 확인한다. (DectModel use case)  
-Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnSleep use case)  
+1. Drowsiness prevention system  
+Driver는 자신의 얼굴을 DrowsinessDect use case에 전송해 졸음 운전인지 아닌지 확인하고 위치정보와 함께 Drowsiness prevention edge system에 전송한다. (DrowsinessDetect use case)  
+Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnUser use case)  
 
-2. 졸음운전 감지 후 해당 위치에 대한 데이터 수집 Use Case  
-System은 사용자가 졸았던 위치를 edge에 전송한다. (SendData use case)  
-Edge는 받은 위치 정보를 분석한다. (DataAnalysis use case)  
-Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollection use case)  
-Buzzer는 사용자가 다수가 졸았던 곳에 위치하게 되면 사용자에게 경고한다. (WarnLocation use case)  
+2. Drowsiness prevention edge system  
+Edge는 Drowsiness prevention system을 통해 받은 위치정보와 Cloud에서 받은 위치정보를 분석한다. (DataAnalysis use case)  
+Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollect use case)   
 
 ## Scenario Description
 ![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
