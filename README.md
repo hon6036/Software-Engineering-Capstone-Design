@@ -30,6 +30,7 @@
 2. 임베드디장비(경고음)
 
 ## Use Case
+홍승환
 ![Use Case](https://user-images.githubusercontent.com/50129757/95698319-84e4d780-0c7c-11eb-88c7-d390e6d5d883.png)
 
 1. Drowsiness prevention system  
@@ -41,7 +42,8 @@ Edge는 Drowsiness prevention system을 통해 받은 위치정보와 Cloud에�
 Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollect use case)   
 
 ## Scenario Description
-![](https://user-images.githubusercontent.com/50129757/95862484-f4061d00-0d9d-11eb-99c1-b06000d03e25.png)
+홍승환
+![Scenario](https://user-images.githubusercontent.com/50129757/95862484-f4061d00-0d9d-11eb-99c1-b06000d03e25.png)
 
 
 
