@@ -41,6 +41,7 @@ Edge는 Drowsiness prevention system을 통해 받은 위치정보와 Cloud에�
 Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollect use case)   
 
 ## Scenario Description
-![졸음운전시나리오](https://user-images.githubusercontent.com/67508204/93899288-212b5680-fd2f-11ea-83d9-823b68160f08.jpg)
+![](https://user-images.githubusercontent.com/50129757/95862484-f4061d00-0d9d-11eb-99c1-b06000d03e25.png)
+
 
 
