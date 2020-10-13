@@ -47,7 +47,8 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 
 ## Sequence Diagram
 담당자: 김선우
-![Sequence Diagram](https://user-images.githubusercontent.com/50129757/95863063-b0f87980-0d9e-11eb-84aa-5ceb2a1f6e35.png)
+![Sequence Diagram1](https://user-images.githubusercontent.com/50129757/95867927-a6d97980-0da4-11eb-9a86-9b9d87291999.png)
+![Sequence Diagram2](https://user-images.githubusercontent.com/50129757/95863063-b0f87980-0d9e-11eb-84aa-5ceb2a1f6e35.png)
 
 ## Class Diagram
 담당자: 이정민
