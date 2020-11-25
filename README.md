@@ -31,15 +31,16 @@
 
 ## Use Case
 담당자: 홍승환
-![Use Case](https://user-images.githubusercontent.com/50129757/100180975-a217f180-2f1c-11eb-9f0d-169a99a33bb1.png)
+![Use Case](https://user-images.githubusercontent.com/50129757/100181181-0b980000-2f1d-11eb-9a73-a437bcf8b8c5.png)
 
 1. Drowsiness prevention system  
-Driver는 자신의 얼굴을 DrowsinessDect use case에 전송해 졸음 운전인지 아닌지 확인하고 위치정보와 함께 Drowsiness prevention edge system에 전송한다. (DrowsinessDetect use case)  
+Camera는 사용자의 얼굴을 DetectDrowsiness use case에 전송해 졸음 운전인지 아닌지 확인한다.(DetectDrowsiness use case)  
 Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발생시킨다. (WarnUser use case)  
 
 2. Drowsiness prevention edge system  
 Edge는 Drowsiness prevention system을 통해 받은 위치정보와 Cloud에서 받은 위치정보를 분석한다. (DataAnalysis use case)  
-Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (DataCollect use case)   
+Edge는 Drowsiness prevention system에서 받은 정보를 저장한다.(ReceiveData)
+Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (CollectData use case)   
 
 ## Scenario Description
 담당자: 홍승환  
