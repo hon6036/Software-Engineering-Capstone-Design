@@ -53,7 +53,8 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 
 ## Class Diagram
 담당자: 이정민
-![Class Diagram](https://user-images.githubusercontent.com/50129757/95863163-d1283880-0d9e-11eb-9752-6148f5758834.png)
+![Class Diagram](https://user-images.githubusercontent.com/50129757/100181932-b826b180-2f1e-11eb-9e24-5fa25027c5a3.png)
+
 
 ## Object Diagram
 담당자: 강원준
