@@ -31,7 +31,7 @@
 
 ## Use Case
 담당자: 홍승환
-![Use Case](https://user-images.githubusercontent.com/50129757/95698319-84e4d780-0c7c-11eb-88c7-d390e6d5d883.png)
+![Use Case](https://user-images.githubusercontent.com/50129757/100180975-a217f180-2f1c-11eb-9f0d-169a99a33bb1.png)
 
 1. Drowsiness prevention system  
 Driver는 자신의 얼굴을 DrowsinessDect use case에 전송해 졸음 운전인지 아닌지 확인하고 위치정보와 함께 Drowsiness prevention edge system에 전송한다. (DrowsinessDetect use case)  
