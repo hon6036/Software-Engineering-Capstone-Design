@@ -39,7 +39,7 @@ Buzzer는 Driver가 졸음운전이라 인식되면 Driver에 경고음을 발�
 
 2. Drowsiness prevention edge system  
 Edge는 Drowsiness prevention system을 통해 받은 위치정보와 Cloud에서 받은 위치정보를 분석한다. (DataAnalysis use case)  
-Edge는 Drowsiness prevention system에서 받은 정보를 저장한다.(ReceiveData)
+Edge는 Drowsiness prevention system에서 받은 정보를 저장한다.(ReceiveData)  
 Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 졸았던 위치를 분석해서 Edge에 전송한다. (CollectData use case)   
 
 ## Scenario Description
