@@ -71,4 +71,4 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 ## Component Diagram
 
 ## Deployment Diagram
-
+![Deployment Diagram](https://user-images.githubusercontent.com/50129757/100562887-5096aa80-3300-11eb-94c3-965b626b4b57.png)
