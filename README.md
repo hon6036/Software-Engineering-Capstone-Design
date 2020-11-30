@@ -62,7 +62,7 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 
 
 ## Design Goal Description
-||Design criterion|Definition|
+|Design criterion|Definition|
 |------|---|
 |Security|사용자의 위치정보가 타인에게 노출되면 안된다. 응답 시간: 즉각적인 이미지 프로세싱으로 졸음을 판별해내야한다.(0.3초 이내)|
 |Reliability|사용자의 졸음운전을 파악하는 것에 대한 신뢰가 보장되어야 한다.|
