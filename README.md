@@ -61,5 +61,14 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 ![](https://user-images.githubusercontent.com/50129757/95863260-f2892480-0d9e-11eb-9940-3a80c27a268a.png)
 
 
+## Design Goal Description
+||Design criterion|Definition|
+|------|---|
+|Security|사용자의 위치정보가 타인에게 노출되면 안된다. 응답 시간: 즉각적인 이미지 프로세싱으로 졸음을 판별해내야한다.(0.3초 이내)|
+|Reliability|사용자의 졸음운전을 파악하는 것에 대한 신뢰가 보장되어야 한다.|
+|Fault Tolerance|cloud와의 연결이 끊어져도 졸음 운전을 판독해낼 수 있어야한다.|
 
+## Component Diagram
+
+## Deployment Diagram
 
