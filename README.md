@@ -69,6 +69,6 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 |Fault Tolerance|cloud와의 연결이 끊어져도 졸음 운전을 판독해낼 수 있어야한다.|
 
 ## Component Diagram
-
+![Component Diagram](https://user-images.githubusercontent.com/50129757/100562932-6efca600-3300-11eb-8020-4377dc6a90b4.png)
 ## Deployment Diagram
 ![Deployment Diagram](https://user-images.githubusercontent.com/50129757/100562887-5096aa80-3300-11eb-94c3-965b626b4b57.png)
