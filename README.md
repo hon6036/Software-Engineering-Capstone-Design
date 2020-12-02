@@ -31,7 +31,7 @@
 
 ## Use Case
 담당자: 홍승환
-![Use Case](https://user-images.githubusercontent.com/50129757/100181181-0b980000-2f1d-11eb-9a73-a437bcf8b8c5.png)
+![UseCase](https://user-images.githubusercontent.com/50129757/100823932-7d7dc580-3498-11eb-9248-ae3201920f33.png)
 
 1. Drowsiness prevention system  
 Camera는 사용자의 얼굴을 DetectDrowsiness use case에 전송해 졸음 운전인지 아닌지 확인한다.(DetectDrowsiness use case)  
