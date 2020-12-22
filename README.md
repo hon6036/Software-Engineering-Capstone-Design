@@ -74,4 +74,5 @@ Edge에서 받은 정보를 Cloud에 전송하게 되며 사용자들이 많이 
 ![Component Diagram](https://user-images.githubusercontent.com/50129757/100562932-6efca600-3300-11eb-8020-4377dc6a90b4.png)
 ## Deployment Diagram
 담당자: 김선우, 강원준 
-![Deployment Diagram](https://user-images.githubusercontent.com/50129757/100562887-5096aa80-3300-11eb-94c3-965b626b4b57.png)
+![Deployment Diagram](https://user-images.githubusercontent.com/50129757/102851137-60686100-445e-11eb-9cbf-50ccab664dbf.png)
+
